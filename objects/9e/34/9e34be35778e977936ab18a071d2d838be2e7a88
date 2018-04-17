@@ -1,0 +1,19 @@
+{
+  "recipes": [
+    {
+      "block": "minecraft:torch",
+      "meta": -1,
+      "heat": 80
+    },
+	{
+      "block": "minecraft:lava",
+      "meta": -1,
+      "heat": 120
+    },
+	{
+      "block": "minecraft:fire",
+      "meta": -1,
+      "heat": 120
+    }
+  ]
+}

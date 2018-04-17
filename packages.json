@@ -1,0 +1,26 @@
+{
+  "minimumVersion" : 1,
+  "packages" : [
+    {
+      "title" : "JP Craft",
+      "name" : "JP Craft",
+      "version" : "1.0",
+      "location" : "jp-craft.json",
+      "priority" : 0
+    },
+    {
+      "title" : "Sky Exchange",
+      "name" : "Sky Exchange",
+      "version" : "2.0",
+      "location" : "sky-exchange.json",
+      "priority" : 0
+    },
+    {
+      "title" : "Undiscovered",
+      "name" : "Undiscovered",
+      "version" : "1.0",
+      "location" : "undiscovered.json",
+      "priority" : 0
+    }
+  ]
+}

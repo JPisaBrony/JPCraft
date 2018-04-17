@@ -1,0 +1,234 @@
+{
+    name: "drops",
+    description: "drops",
+    sets: [
+        {
+            name: "default",
+            operations: [
+			
+				{
+                    // You can also specify an 'otherwise' which will be matched and applied if the original drop isn't matched:
+                    type: "setBlockDrops",
+                    what: ["minecraft:grass"],
+                    replace: false,
+                    drops: [
+                        {
+                            // Give a 50% chance of getting sand...
+                            what: "exnihiloomnia:seed_oak",
+                            min: 1,
+                            max: 1,
+                            chance: 1.0,
+							minedWith: "projecte:item.pe_philosophers_stone"
+                            
+                            
+                        } ] },
+				{
+                    
+                    type: "setBlockDrops",
+                    what: ["extrautils2:compressedsand"],
+                    replace: true,
+                    drops: [
+                        {
+                            // Give a 50% chance of getting sand...
+                            what: "minecraft:dye:15",
+                            min: 1,
+                            max: 3,
+                            chance: 1.0,
+							minedWith: "projecte:item.pe_philosophers_stone"
+                            
+                            
+                        } ] },
+						{
+                    
+                    type: "remove",
+                    what: "projecte:item.pe_philosophers_stone"
+                },
+				
+				{
+                    
+                    type: "addShapeless",
+                    output: "charsettweaks:graphite",
+                    quantity: 4,
+                    with: ["minecraft:coal:1","minecraft:coal:1"]
+					
+                            
+					
+                },
+				{
+                    
+                    type: "addShapeless",
+                    output: "projecte:item.pe_philosophers_stone",
+                    quantity: 1,
+                    with: ["minecraft:dirt", "minecraft:dirt","minecraft:dirt","minecraft:dirt"],
+					damagePlayer: 5.0,
+                            playerDamageType: "magic",
+                            playerDamageIsUnblockable: true, //damage player down to half hearts, maybe give nausea, whisper them "you felt like you fell 10x blocks wink wink"
+                            
+					
+                },
+				{
+                    
+                    type: "addShaped",
+                    output: "minecraft:book",
+                    quantity: 1,
+                    with: [
+                        "", "quark:bark:*","",
+                        "minecraft:paper", "minecraft:paper", "minecraft:paper",
+						"","quark:bark:*",""
+                    ]
+                },
+				{
+                    __comment: "You can also add recipes to the mana pool",
+                    type: "Botania.addManaInfusion",
+                    output: "minecraft:prismarine_shard",
+                    with: "minecraft:quartz",
+                    mana: 100,
+                    // Both of these are optional, and default to false. Only one can be true, though.
+                    isConjuration: false,
+                    isAlchemy: true
+                },
+				{
+                    
+                    type: "remove",
+                    what: "exnihiloomnia:doll_blaze"
+                },
+				{
+                    __comment: "You can add shaped recipes",
+                    __result: "Turns 3 sticks in a triangle format into black dye",
+                    type: "addShaped",
+                    output: "exnihiloomnia:doll_blaze",
+                    quantity: 1,
+                    with: [
+                        "minecraft:blaze_powder", "minecraft:glowstone_dust","minecraft:blaze_powder",
+                        "minecraft:redstone", "exnihiloomnia:doll", "minecraft:redstone",
+						"minecraft:blaze_powder", "minecraft:glowstone_dust", "minecraft:blaze_powder"
+                    ]
+                },
+				
+				
+				{
+                    
+                    type: "addShapeless",
+                    output: "mxtune:item_musicpaper",
+                    quantity: 4,
+                    with: ["minecraft:paper","minecraft:paper","minecraft:paper","minecraft:paper","<dyeBlack>"]
+					
+                            
+					
+                },
+				{
+                    
+                    type: "addShaped",
+                    output: "cyberware:surgery",
+                    quantity: 1,
+                    with: [
+                        "minecraft:iron_ingot", "immersiveengineering:toolupgrade:4","minecraft:iron_ingot",
+                        "minecraft:iron_ingot", "mekanism:Robit", "minecraft:iron_ingot",
+						"minecraft:iron_ingot","minecraft:iron_ingot","minecraft:iron_ingot"
+                    ]
+                },
+				{
+                    
+                    type: "remove",
+                    what: "chiselsandbits:wrench_wood"
+                },
+				{
+                    
+                    type: "addShaped",
+                    output: "chiselsandbits:wrench_wood",
+                    quantity: 1,
+                    with: [
+                        "minecraft:planks:*", "","minecraft:planks:*",
+                        "", "minecraft:stick", "",
+						"","minecraft:stick",""
+                    ]
+                },
+				{
+                    
+                    type: "addShapeless",
+                    output: "minecraft:obsidian",
+                    quantity: 1,
+                    with: [{
+                            item: "exnihiloomnia:bucket_porcelain_lava",
+                            replaceOnCraft: "exnihiloomnia:bucket_porcelain_empty"
+                        },{
+                            item: "exnihiloomnia:bucket_porcelain_water",
+                            returnOnCraft: true
+                        },{
+                            item: "exnihiloomnia:barrel_stone",
+                            returnOnCraft: true
+                        }]
+					
+                            
+					
+                },
+				
+                {   
+                    type: "addShapeless",
+                    output: "chisel:marbleextra:7",
+                    quantity: 1,
+                    with: ["minecraft:stone","botania:dye:0"]
+				},
+{   
+                    type: "addShapeless",
+                    output: "chisel:limestoneextra:7",
+                    quantity: 1,
+                    with: ["minecraft:stone","botania:dye:5"]
+				},	
+{   
+                    type: "addShapeless",
+                    output: "chisel:basaltextra:7",
+                    quantity: 1,
+                    with: ["minecraft:stone","botania:dye:15"]
+				},
+				
+{   
+                    type: "addShapeless",
+                    output: "xreliquary:glowing_bread",
+                    quantity: 1,
+                    with: ["harvestcraft:fairybreadItem","projecte:item.pe_matter"]
+				},
+{
+                    
+                    type: "remove",
+                    what: "harvestcraft:shippingbin"
+                },	
+
+{
+                    
+                    type: "addShaped",
+                    output: "minecraft:golden_apple:1",
+                    quantity: 1,
+                    with: [
+                        "xreliquary:glowing_water", "xreliquary:glowing_water","xreliquary:glowing_water",
+                        "xreliquary:midas_touchstone", "minecraft:golden_apple", "xreliquary:midas_touchstone",
+						"xreliquary:glowing_water","xreliquary:glowing_water","xreliquary:glowing_water"
+                    ]
+                },
+{
+                    
+                    type: "addShaped",
+                    output: "extrautils2:Ingredients:5",
+                    quantity: 1,
+                    with: [
+                        "harvestcraft:cheeseItem", "harvestcraft:cheeseItem","harvestcraft:cheeseItem",
+                        "harvestcraft:cheeseItem", "minecraft:stone", "harvestcraft:cheeseItem",
+						"harvestcraft:cheeseItem","harvestcraft:cheeseItem","harvestcraft:cheeseItem"
+                    ]
+                }				
+                            
+					
+                
+			
+						
+						
+				
+				
+				
+				
+				
+				]
+				}
+				]
+				}
+                

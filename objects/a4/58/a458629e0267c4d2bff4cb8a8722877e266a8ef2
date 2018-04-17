@@ -1,0 +1,15 @@
+# Configuration file
+
+general {
+    # Group Play Abort Distance [range: 10.0 ~ 24.0, default: 10.0]
+    S:groupPlayAbortDistance=10.0
+
+    # Hide Welcome Status Message [default: false]
+    B:hideWelcomeStatusMessage=true
+
+    # Listener Range [range: 10.0 ~ 64.0, default: 24.0]
+    S:listenerRange=24.0
+    B:soloPlayWhileWalking=true
+}
+
+

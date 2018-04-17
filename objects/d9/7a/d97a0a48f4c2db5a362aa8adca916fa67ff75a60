@@ -1,0 +1,80 @@
+{
+  "recipes": [
+  
+  {
+      "id": "exnihiloomnia:dust",
+      "meta": 0,
+      "behavior": "meta_ignored",
+      "rewards": [
+        {
+          "id": "mekanism:Dust",
+          "meta": 4,
+          "amount": 1,
+          "baseChance": 20
+        }
+      ]
+    },
+	{
+      "id": "minecraft:gravel",
+      "meta": 0,
+      "behavior": "meta_ignored",
+      "rewards": [
+        {
+          "id": "minecraft:quartz",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 5
+        }
+      ]
+    },
+    {
+      "id": "minecraft:leaves",
+      "meta": 0,
+      "behavior": "meta_ignored",
+      "rewards": [
+        {
+          "id": "harvestcraft:aridgarden",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 20
+        },
+		{
+          "id": "harvestcraft:frostgarden",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 20
+        },
+		{
+          "id": "harvestcraft:shadedgarden",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 20
+        },
+		{
+          "id": "harvestcraft:soggygarden",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 20
+        },
+		{
+          "id": "harvestcraft:tropicalgarden",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 20
+        },
+		{
+          "id": "harvestcraft:windygarden",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 20
+        },
+		{
+          "id": "harvestcraft:beehive",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 10
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "entries": [
+    {
+      "item": "projecte:item.pe_philosophers_stone|0",
+      "emc": 0
+    },
+    {
+      "item": "extrautils2:EnderShard|0",
+      "emc": 128
+    },
+    {
+      "item": "minecraft:wool|*",
+      "emc": 64
+    },
+    {
+      "item": "botania:dye|*",
+      "emc": 16
+    },
+    {
+      "item": "chisel:basaltextra|7",
+      "emc": 16
+    },
+    {
+      "item": "chisel:marbleextra|7",
+      "emc": 16
+    },
+    {
+      "item": "chisel:limestoneextra|7",
+      "emc": 16
+    },
+    {
+      "item": "harvestcraft:saltItem|0",
+      "emc": 1
+    }
+  ]
+}

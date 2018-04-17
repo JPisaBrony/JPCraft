@@ -1,0 +1,8 @@
+//This file was created via CT-GUI! Editing it is not advised!
+//Don't touch me!
+//#Remove
+recipes.remove(<xreliquary:glowing_bread>);
+recipes.remove(<charsettweaks:graphite>);
+//Don't touch me!
+//#Add
+//File End
