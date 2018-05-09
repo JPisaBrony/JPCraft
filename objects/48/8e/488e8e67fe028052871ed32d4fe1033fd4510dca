@@ -1,0 +1,14 @@
+player_log_in=[
+  {
+    action=send_chat
+    target=player
+    conditions {
+      mob {
+        type=player
+      }
+    }
+    parameters {
+      message="Press the Minus/Dash key to open the Quest Book"
+    }
+  }
+]
