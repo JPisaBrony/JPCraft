@@ -35,6 +35,13 @@
       "version" : "1.0",
       "location" : "banilla.json",
       "priority" : 0
+    },
+    {
+      "title" : "Banilla Latest",
+      "name" : "Banilla Latest",
+      "version" : "1.0",
+      "location" : "banilla-latest.json",
+      "priority" : 0
     }
   ]
 }
