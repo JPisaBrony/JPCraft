@@ -25,22 +25,8 @@
     {
       "title" : "Peace of Mind",
       "name" : "Peace of Mind",
-      "version" : "2.0",
+      "version" : "3.0",
       "location" : "peace-of-mind.json",
-      "priority" : 0
-    },
-    {
-      "title" : "Banilla",
-      "name" : "Banilla",
-      "version" : "1.0",
-      "location" : "banilla.json",
-      "priority" : 0
-    },
-    {
-      "title" : "Banilla Latest",
-      "name" : "Banilla Latest",
-      "version" : "1.0",
-      "location" : "banilla-latest.json",
       "priority" : 0
     }
   ]
