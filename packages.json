@@ -28,6 +28,13 @@
       "version" : "9.0",
       "location" : "peace-of-mind.json",
       "priority" : 0
+    },
+    {
+      "title" : "Just Actually Additions",
+      "name" : "Just Actually Additions",
+      "version" : "1.0",
+      "location" : "just-actually-additions.json",
+      "priority" : 0
     }
   ]
 }
