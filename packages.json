@@ -35,6 +35,13 @@
       "version" : "2.0",
       "location" : "just-actually-additions.json",
       "priority" : 0
+    },
+    {
+      "title" : "Core Mods",
+      "name" : "Core Mods",
+      "version" : "1.0",
+      "location" : "core-mods.json",
+      "priority" : 0
     }
   ]
 }
